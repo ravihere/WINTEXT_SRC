@@ -79,3 +79,8 @@ h1{
   top: 35%;
   right: 17%;
 }
+.info{
+  position: absolute;
+  top: 95%;
+  right: 2%;
+} 
