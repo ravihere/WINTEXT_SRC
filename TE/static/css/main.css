@@ -57,6 +57,26 @@ body {
   -o-animation-timing-function: linear;
   animation-timing-function: linear;
 }
+@media (min-width: 640px) {
+  html.font-size--s .menu__mobile {
+    display: none;
+  }
+}
+@media (min-width: 960px) {
+  html.font-size--m .menu__mobile {
+    display: none;
+  }
+}
+@media (min-width: 1280px) {
+  html.font-size--l .menu__mobile {
+    display: none;
+  }
+}
+@media (min-width: 2560px) {
+  html.font-size--xl .menu__mobile {
+    display: none;
+  }
+}
 h1{
   font: 500 25px/1.5 exo, ubuntu, "segoe ui", helvetica, arial, sans-serif;
   font-size: 5rem;
