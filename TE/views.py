@@ -22,7 +22,7 @@ def get_text(request):
         try:
             img = Image.open(image)
             pytesseract.pytesseract.tesseract_cmd ='/app/.apt/usr/bin/tesseract'
-            result = pytesseract.image_to_string(img, lang=lang)
+            result = pytesseract.image_to_string(img, lang=lang,config='--psm 6')
             result= result.replace('\n\n','\n')
             context={
             'result':result,
