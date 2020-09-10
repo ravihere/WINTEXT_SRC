@@ -2,7 +2,6 @@ from django.shortcuts import render
 from django.http import HttpResponse,HttpResponseRedirect
 from PIL import Image
 import pytesseract
-import cv2
 from .forms import reqData
 def index(request):
 	return render(request,'TE/index.html')
