@@ -43,9 +43,9 @@ html {
     <div class="wrapper">
   <textarea name="the-textarea" id="values" placeholder="Your Text..."autofocus>{{result}}</textarea>
   <div id="the-count">
-    <span id="current">CHARACTER COUNT: 0</span>
+    <span id="current">CHARACTER COUNT: </span>
   </div>
-</div>
+
 <script src="http://code.jquery.com/jquery.js"></script>
 
 <script type="text/javascript">
@@ -56,7 +56,7 @@ html {
       theCount = $('#the-count');
     
   current.text('CHARACTER COUNT: '+characterCount);
-      
+  </div>
 });
 </script>
 <script>  
